@@ -70,7 +70,7 @@ public class MoveWords{
 	    //System.out.println("SECOND: "+second_i);
 	    //System.out.println("FIRST +1: "+(first_i+1));
 	    //System.out.println("FIRST LENG: "+( (first_i +1) % validMoves.length ));
-	    return (( (first_i +1) % validMoves.length ) == second_i || ( (first_i +1) % validMoves.length )+2 == second_i) ? GANA: PIERDE;
+	    return (( (first_i +1) % validMoves.length ) == second_i || ( (first_i +3) % validMoves.length ) == second_i) ? GANA: PIERDE;
 	}
 	
 } 
